@@ -47,7 +47,7 @@ class Case3 {
         listOf(edge)
     })
 
-    fun submit(env: Environment): IPipelineResult<Any> {
+    private fun submit(env: Environment): IPipelineResult<Any> {
         val pipeline = PipelineFactory.buildPipeline(env)
         val envConfig = env.environmentContext.config
         envConfig.put(FileSink.OUTPUT_DIR, RESULT_PATH)

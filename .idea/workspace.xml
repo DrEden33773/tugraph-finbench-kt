@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="finished half of Case3">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/records/Case3Cell.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="finished refactoring Case3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/executor/Case3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/executor/Case3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/records/Case3Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/records/Case3Vertex.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Case3Algorithm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Case3Algorithm.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,7 @@
       <updated>1707819979057</updated>
       <workItem from="1707819980191" duration="2675000" />
       <workItem from="1707847172935" duration="25000" />
-      <workItem from="1707847209302" duration="1809000" />
+      <workItem from="1707847209302" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -129,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707822651540</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished refactoring Case3">
+      <option name="closed" value="true" />
+      <created>1707849120790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707849120790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="finished half of Case3" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished half of Case3" />
+    <MESSAGE value="finished refactoring Case3" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished refactoring Case3" />
   </component>
 </project>

@@ -15,7 +15,7 @@ class Case3Algorithm : VertexCentricCompute<Long, Case3Vertex, Double, Double>(2
     }
 
     override fun getComputeFunction(): VertexCentricComputeFunction<Long, Case3Vertex, Double, Double> {
-        TODO("Not yet implemented")
+        return Case3ComputeFunction()
     }
 }
 
