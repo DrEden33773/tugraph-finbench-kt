@@ -8,4 +8,8 @@ data class Case3Vertex(
     var inOutRatio = 0.0
     var hasIn = false
     var hasOut = false
+
+    fun toCase3Cell(): Case3Cell {
+        return Case3Cell(accountId, inOutRatio)
+    }
 }

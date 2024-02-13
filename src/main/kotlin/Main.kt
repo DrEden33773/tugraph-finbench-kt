@@ -1,5 +1,7 @@
 package org.ember
 
-fun main() {
-    println("Hello World!")
+import org.ember.executor.Case3
+
+fun main(args: Array<String>) {
+    Case3().run(args)
 }
