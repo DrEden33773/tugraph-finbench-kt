@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="avoid using lots of non-null assert operators" />
+    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -105,6 +112,7 @@
       <workItem from="1707847172935" duration="25000" />
       <workItem from="1707847209302" duration="2062000" />
       <workItem from="1707883156254" duration="321000" />
+      <workItem from="1707883490044" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -146,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707883384113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1707883587561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707883587561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,8 +172,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="finished half of Case3" />
     <MESSAGE value="finished refactoring Case3" />
-    <MESSAGE value="update" />
     <MESSAGE value="avoid using lots of non-null assert operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="avoid using lots of non-null assert operators" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
