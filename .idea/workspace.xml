@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/OrderedFileSink.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/OrderedFileSink.kt" afterDir="false" />
-    </list>
+    <list default="true" id="91eecb27-cfcd-4181-8240-0a4fdaf9c5e1" name="Changes" comment="avoid using lots of non-null assert operators" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +104,7 @@
       <workItem from="1707819980191" duration="2675000" />
       <workItem from="1707847172935" duration="25000" />
       <workItem from="1707847209302" duration="2062000" />
-      <workItem from="1707883156254" duration="194000" />
+      <workItem from="1707883156254" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -141,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707849173763</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="avoid using lots of non-null assert operators">
+      <option name="closed" value="true" />
+      <created>1707883384113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707883384113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +157,7 @@
     <MESSAGE value="finished half of Case3" />
     <MESSAGE value="finished refactoring Case3" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="avoid using lots of non-null assert operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="avoid using lots of non-null assert operators" />
   </component>
 </project>
