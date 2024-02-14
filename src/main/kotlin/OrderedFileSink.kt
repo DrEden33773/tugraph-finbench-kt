@@ -34,30 +34,30 @@ class OrderedFileSink<OUT : Comparable<OUT>> : RichFunction(), SinkFunction<OUT>
         val prefix = runtimeContext.configuration.getString(OUTPUT_DIR)
         val nth = runtimeContext.taskArgs.taskIndex
         val filename = "${prefix}/result_${nth}"
+        val file = File(filename)
         LOGGER.info("Sink file name: $filename")
 
         val shouldAppend = runtimeContext.configuration.getBoolean(
             ConfigKey(FILE_OUTPUT_APPEND_ENABLE, true)
         )
-        file = File(filename)
 
         try {
-            if (!shouldAppend && file!!.exists()) {
-                try {
-                    FileUtils.forceDelete(file)
-                } catch (e: Exception) {
-                    // ignore
-                }
+            if (!shouldAppend && file.exists()) try {
+                FileUtils.forceDelete(file)
+            } catch (e: IOException) {
+                throw GeaflowRuntimeException(e)
             }
-            if (!file!!.exists()) {
-                if (!file!!.parentFile.exists()) {
-                    file!!.parentFile.mkdirs()
+            if (!file.exists()) {
+                if (!file.parentFile.exists()) {
+                    file.parentFile.mkdirs()
                 }
-                file!!.createNewFile()
+                file.createNewFile()
             }
         } catch (e: IOException) {
             throw GeaflowRuntimeException(e)
         }
+
+        this.file = file
     }
 
     /**
